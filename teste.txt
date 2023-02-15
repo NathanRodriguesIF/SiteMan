@@ -1,0 +1,59 @@
+
+main {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "section"
+        "section section section";
+    grid-template-rows: auto auto auto;
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    border-radius: 20px;
+    border: 0px solid rgb(182, 182, 182);
+    padding: 25px;
+}
+
+
+.secPecas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.secPecas:hover {
+    cursor: pointer;
+}
+.secPecas:hover img {
+    transition: 500ms;
+    transform: translate(7px);
+    box-shadow: 2px 3px 5px grey;
+}
+.secPecas:hover aside {
+    opacity: 1;
+    transition: 500ms;
+}
+
+.imgPeca {
+    border-radius: 20px;
+}
+.legendaPeca {
+    margin: 5px;
+    opacity: 0;
+}
+
+
+
+#imgGabinete {
+    width: 250px; 
+}
+
+
+
+
+
+<img src="assets/Gabinete.jpg" alt="Gabinete" id="imgGabinete" class="imgPeca">
+            <aside class="legendaPeca">
+                <p class="pecaTitle">Gabinete</p>
+                <p class="pecaTxt">É responsável por armazenar as demais peças do computador</p>
+            </aside>

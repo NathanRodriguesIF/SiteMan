@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#cabecalho {
+    background-image: linear-gradient(to right, #3A7CA5, #74B3CE);
+    padding: 25px;
+    margin-bottom: 25px;
+}
+#tituloPrincipal {
+    text-align: center;
+    color: white;
+}
+
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+img {
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    padding: 5px;
+}
+img:hover {
+    transform: translate(5px);
+    transition: 500ms;
+    box-shadow: 2px 3px 5px gray;
+    cursor: pointer;
+}
+p {
+    text-align: center;
+}
+
+
+
+#navGabinete {
+    margin: auto auto 25px auto;
+}
+#imgGabinete {
+    width: 250px;
+}
+
+
+main {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    opacity: 0;
+    transition: 500ms;
+}
+#section1 {
+    display: flex;
+    padding: 0px 10px 10px 10px;
+    flex-direction: column;
+    align-items: center;
+    width: 425px;
+    border: 1px solid gray;
+    width: 300px;
+}
+#section2 {
+    display: flex;
+    padding: 0px 10px 10px 10px;
+    flex-direction: column;
+    align-items: center;
+    width: 425px;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    width: 300px;
+}
+#section3 {
+    display: flex;
+    padding: 0px 10px 10px 10px;
+    flex-direction: column;
+    align-items: center;
+    width: 425px;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    width: 300px;
+}
+#section4 {
+    display: flex;
+    padding: 0px 10px 10px 10px;
+    flex-direction: column;
+    align-items: center;
+    width: 425px;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    width: 300px;
+}
+.titleSec {
+    padding: 10px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    background-color: #3A7CA5;
+    margin-bottom: 25px;
+}
+h5 {
+    width: 250px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#placaMae {
+    width: 200px;
+}
